@@ -6,7 +6,7 @@ public class BallController : MonoBehaviour
     [SerializeField] private float force = 1f;
     [SerializeField] private InputManager inputManager;
 
-    private Rigidbody ballRB;
+    public Rigidbody ballRB;
     private bool isBallLaunched;
 
     void Start()
