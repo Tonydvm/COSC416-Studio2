@@ -34,6 +34,8 @@ public class GameManager : MonoBehaviour
     {
         ball.ResetBall();
         SetPins();
+        score = 0;
+        scoreText.text = $"Score: {score}";
     }
 
     private void SetPins()
